@@ -1,0 +1,28 @@
+dist: trusty
+sudo: required
+
+language: php
+
+php:
+  - '7.0'
+matrix:
+
+notifications:
+  email: false
+
+services:
+  - mysql
+
+cache:
+  directories:
+  - $HOME/.composer/cache/files
+
+before_install:
+  - sudo apt-get update
+
+install:
+  - composer install --no-interaction --no-dev -v
+
+script:
+
+after_failure:
