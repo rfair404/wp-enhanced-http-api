@@ -1,0 +1,14 @@
+{
+    "name": "rfair404/wp-enhanced-http-api",
+    "description": "An Enhanced HTTP API for WordPress",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Russell Fair",
+            "email": "rfair404@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
